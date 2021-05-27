@@ -1,0 +1,11 @@
+@import "../../assets/styles/colors.scss";
+
+.workarea {
+    float: left;
+    width: 75%;
+    height: 100%;
+    padding: 60px 70px 20px 70px;    
+    height: 100vh;
+    color: $workarea-text;
+    background-color: $workarea-background;
+}

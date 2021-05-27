@@ -1,0 +1,47 @@
+@import "../../assets/styles/colors.scss";
+
+.sidebar {
+    background-image: linear-gradient(to right, $sidebar-gradient1, $sidebar-gradient2, $sidebar-gradient3, $sidebar-gradient4, $sidebar-gradient5);
+    float: left;
+    height: 100vh;
+    width: 25%;
+    padding: 50px 20px;
+    color: $sidebar-text;
+}
+
+.siderbarTitle {
+    text-align: center;
+    border-bottom: 1px solid $sidebar-border-item;
+    padding: 1.5rem 0;
+}
+
+.siderbarTitle a {
+    color: $sidebar-text;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.sidebarItems {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarItems .sidebarItem {
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid $sidebar-border-item;
+    transition: .45s all ease;
+    text-align: left;
+    cursor: pointer;
+}
+
+.sidebarItem a {
+    color: $sidebar-text;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.sidebarItems .sidebarItem:hover {
+    background: $sidebar-selected-hover-background;
+    border-left: 3px solid $sidebar-border-selected-hover;
+}
