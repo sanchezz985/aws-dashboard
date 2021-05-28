@@ -1,0 +1,6 @@
+@import "../../../assets/styles/colors.scss";
+@import "../../../assets/styles/commons.scss";
+
+.defaultContainer{
+    @extend %container;
+}
